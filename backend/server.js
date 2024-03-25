@@ -1,9 +1,11 @@
 const express = require("express");
 const dotenv = require("dotenv");
 const {chats}= require("./data/data");
+const connectDB = require("./config/db");
 
-const app= express();
 dotenv.config();
+connectDB();
+const app= express();
 
 //Creating an API
 app.get('/', (req, res)=>{   //highlighted part means the address of the page. which page will sgow what
