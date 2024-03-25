@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+
+.App{
+    min-height: 100vh;
+    display: flex;
+    background-image: url(./pictures/background.jpg);
+    background-size: cover ;
+    background-position: left;
+}
